@@ -1,0 +1,51 @@
+# Archivos compilados y paquetes de Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Directorios de compilación / salida estándar
+bin/
+build/
+out/
+dist/
+
+# Logs y reportes de errores de la JVM
+*.log
+hs_err_pid*
+replay_pid*
+
+# NetBeans (archivos locales y privados)
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.settings/
+.classpath
+.project
+.metadata/
+
+# VS Code
+.vscode/
+
+# Archivos del Sistema Operativo (Windows / macOS)
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
